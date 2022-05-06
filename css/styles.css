@@ -581,7 +581,48 @@ color: #FFFFFF;
 .footer-soc-icon{
   fill: #FFFFFF;
 }
+.footer-sub-text{
+font-weight: 700;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
 
+margin-bottom: 20px;
+
+color: #FFFFFF;
+}
+.footer-form{
+  margin-left: 93px;
+}
+.footer-input{
+min-width: 358px;
+height:50px ;
+border: 1px solid rgba(255, 255, 255, 0.3);
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+border-radius: 4px;
+
+color: rgba(255, 255, 255, 0.6);
+background-color: transparent;
+}
+.footer-sub-btn{
+font-family: inherit;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+text-align: center;
+letter-spacing: 0.06em;
+
+min-width: 200px;
+height: 50px;
+border: 1px solid #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+margin-left: 12px;
+
+
+color: var(--top-btn-color);
+background-color:var(--accent-color) ;
+}
 /* ------------modal----------------- */
 
 .backdrop{
