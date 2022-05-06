@@ -665,9 +665,14 @@ background-color:var(--accent-color) ;
   transform: translate(-50%,-50%) scale(1);
 }
 .modal-close{
+  width: 30px;
+  height: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
   position: absolute;
   top: 8px;
   right: 8px;
+  padding: 6px;
 }
 .is-hidden{
   opacity: 0;
